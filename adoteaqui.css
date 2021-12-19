@@ -1,0 +1,99 @@
+.header {
+    display:flex;
+	justify-content: space-between;
+	padding: 20px;
+    background: #363636;
+    color: yellow;
+    font-family: monospace;
+    font-size: 2rem;
+}
+
+.adoteaqui {
+   padding-left: 15rem;
+   width: 60%;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	flex-grow: 1;
+  }
+.menu {
+    color: yellow;
+    align-items: center;
+}
+
+.menu:hover {
+    color: orange;
+}
+
+body{
+	background-image: url(https://http2.mlstatic.com/D_NQ_NP_751809-MLB44529202215_012021-O.jpg);
+    background-size: 20%;
+}
+
+.pets {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-left: 2%;
+	height: 900px;
+}
+
+.size-img {
+	border: #363636 1px solid;
+	border-radius: 50%;	
+	width: 20%;
+	height: 23rem;
+	margin: 20px 10px;
+}
+
+footer {
+	font-family: monospace;
+    text-align: center;
+	background: #363636;
+	padding: 15px 0;
+	color: yellow;
+	text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+	.adoteaqui {
+		display: none;
+	}
+
+	.pets {
+		display: flex;
+		flex-direction: column;
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+		margin-top: 28rem;
+		margin-bottom: 28rem;
+	}
+
+	.size-img {
+		border: #363636 1px solid;
+		border-radius: 50%;	
+		width: 40%;
+		height: 10rem;
+		margin: 2rem 1rem;
+	}
+
+	.footer {
+		margin-top: 5px;
+	}
+
+}
